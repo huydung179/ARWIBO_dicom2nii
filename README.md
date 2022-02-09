@@ -7,19 +7,19 @@ http://www.arwibo.it
 
 Diagnosis:
 
-CN: cognitively normal 
-AD: Alzheimer's Disease
-CBD: Corticobasal degeneration
-FTD: Frontotemporal disorders
-LBD: Lewy body dementia
-MCI: Mild Cognitive Impairment
-MDD: Major Depressive Disorder
-MSA: Multiple system atrophy
-ND: ???
-PD: Parkinson's disease
-SMI: Severe mental illness
-SVD: Cerebral small vessel disease
-OTHER: Other
+- CN: cognitively normal 
+- AD: Alzheimer's Disease
+- CBD: Corticobasal degeneration
+- FTD: Frontotemporal disorders
+- LBD: Lewy body dementia
+- MCI: Mild Cognitive Impairment
+- MDD: Major Depressive Disorder
+- MSA: Multiple system atrophy
+- ND: ???
+- PD: Parkinson's disease
+- SMI: Severe mental illness
+- SVD: Cerebral small vessel disease
+- OTHER: Other
 
 
 The original data repository contains 3481 DICOM images.
@@ -27,7 +27,7 @@ The original data repository contains 3481 DICOM images.
 To convert DICOM data to .nii format:
 - Clone file "convert.sh" from https://github.com/huydung179/ARWIBO_dicom2nii 
 - Run the following command:
-    bash convert.sh [DICOM images directory]
+    ```bash convert.sh [DICOM images directory]```
 
 Please note that one DICOM image can be converted into several different .nii images.
 We need to select the best image among them.
