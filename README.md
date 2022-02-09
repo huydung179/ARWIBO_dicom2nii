@@ -29,13 +29,13 @@ To convert DICOM data to .nii format:
 - Run the following command:
     ```bash convert.sh [DICOM images directory]```
 
-Please note that one DICOM image can be converted into several different .nii images.
-We need to select the best image among them.
-Some other .nii image are in 4D format (For exemple: img.shape = [100, 100, 100, 2] with img[..., 0] is the left hemisphere, img[..., 1] is the right hemisphere). 
-We need to transform these images to 3D format.
+Please note that one DICOM image can be converted into several different .nii images.  
+We need to select the best image among them.  
+Some other .nii image are in 4D format (For exemple: img.shape = [100, 100, 100, 2] with img[..., 0] is the left hemisphere, img[..., 1] is the right hemisphere).  
+We need to transform these images to 3D format.  
 You can do that with the help of "arwibo_quality_control.ipynb" from https://github.com/huydung179/ARWIBO_dicom2nii  
 
 
-After the quality control, we retain only FLAIR and T1w images:
-1679 FLAIR, 1455 T1w.
+After the quality control, we retain only FLAIR and T1w images:  
+1679 FLAIR, 1455 T1w.  
 Some minimal information from patients can be found in "flair_info.csv" and "t1w_info.csv" from https://github.com/huydung179/ARWIBO_dicom2nii 
