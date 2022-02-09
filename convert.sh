@@ -45,7 +45,7 @@ mkdir -p -m777 "${output_dir}/other"
 echo "Input directory = ${input_path}"
 echo "Output directory = ${output_dir}"
 
-prefix="ARWIBO"
+prefix="nG_ARWIBO"
 
 for tar_path in ${input_path}/*tar.bz2; do
     echo $(basename ${tar_path})
